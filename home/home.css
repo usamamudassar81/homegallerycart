@@ -1,0 +1,208 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.top1{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 5px 25px;
+    background-color: blue;
+}
+.top1 div{
+    display: flex;
+    gap: 25px;
+}
+.top1 div a{
+    text-decoration: none;
+    color: white;
+}
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    border-bottom: 1px black solid;
+    margin-bottom: 5px;
+}
+.logo{
+    width: 120px;
+    height: 50px;
+    overflow: hidden;
+    padding-top: 5px;
+   
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+
+}
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding-right:100px ;
+    padding: 25px 25px 25px 0;
+    }
+.menu li{
+    gap: 25px;
+    cursor: pointer;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+}
+.conbtn{
+    padding: 15px 25px 15px 25px;
+    border-radius: 5px;
+    background-color: rgb(187, 158, 199);
+    color: aliceblue;
+    border: none;
+    font-weight: bold;
+}
+.conbtn:hover{
+    background-color: rgb(95, 95, 219);
+    transition: all 0.2 ease-in;
+    /* transform: rotate(); */
+    transform: rotateX('angle');
+    
+
+
+}
+.herosection{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap:25px;
+    padding: 0 25px ;
+    background-color: rgb(212, 212, 212);
+}
+.heroheading{
+    padding: 105px 0 0 25px;
+    position: absolute;
+    left: 25px;
+    top: 105;
+    width: 25%;
+}
+.subhero1{
+    width: 50%;
+    height: auto;
+    background-color: brown;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.subhero{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    gap: 20px;
+    overflow: hidden; 
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.subhero div img{
+    width: 300px;
+    height: 220px;
+}
+/* //filter */
+.parent{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 15px;
+     border-bottom: 1px black solid;
+     margin-bottom: 25px;
+}
+.filter{
+    border-right:2px black solid;
+    margin-top: 30px;
+    /* margin-left: 50px; */
+    padding-right: 30px;
+    /* margin-right: 50px; */
+    width: 100%;
+    height: 100%;
+}
+.filter1{
+    padding-bottom: 25px;
+    width: 90%;
+    /* margin-bottom: 25px; */
+}
+.filter1 label{
+ font-weight:500px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font: bolder;
+ text-decoration: underline;
+ margin-bottom: 10px;
+ 
+ 
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+.filter1 div{
+    padding: 10px 10px;
+    
+}
+.Products-main{
+    /* margin-right: 20px; */
+    /* margin-left: 25px; */
+    padding-left: 50px;
+    padding-right: 45px;
+    border-top:1px gray solid ;
+}
+.pagination{
+    /* margin-left:50px ; */
+    line-height: 40px;
+}
+.cart{
+    display: grid;
+    /* grid-column-start:1 ; */
+    grid-template-columns: 250px 250px 250px 250px;
+    gap: 20px;
+    width: 100%;
+    height: 60%;
+    /* display: flex; */
+}
+.card{
+    width: 100%;
+    height: 100%;
+    border: 2px black solid;
+    /* padding-left: 25px; */
+    /* padding-right: 25px; */
+}
+.card img{
+    width: 200px;
+    height: 180px;
+    /* padding: auto; */
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 25px; */
+    /* padding-right: 25px; */
+   
+}
+.card-body{
+    padding-left:15px ;
+    padding-right: 10px;
+    
+    /* margin: 10px; */
+}
+.card-body div{
+    
+    display: flex;      
+
+     justify-content: space-between;
+}
+.card-body div li{
+    list-style: none;
+}
+.prolist{
+    width: 100%;
+    height: auto;
+
+}
+.dresspro{
+    display: grid;
+    grid-template-columns:23% 23% 23% 23% ;
+    gap: 25px;
+}
